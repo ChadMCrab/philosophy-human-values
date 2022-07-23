@@ -50,7 +50,7 @@ li {
 }
 
 #socrates {
-    background: url("/resources/img/socrates.jpg") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/socrates.jpg") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@ li {
 }
 
 #socrates:hover {
-    background: url("/resources/img/socrates.jpg") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/socrates.jpg") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@ li {
 }
 
 #epi-stoi-skep {
-    background: url("/resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@ li {
 }
 
 #epi-stoi-skep:hover {
-    background: url("/resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ li {
 }
 
 #kant {
-    background: url("/resources/img/kant.jpg") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/kant.jpg") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@ li {
 }
 
 #kant:hover {
-    background: url("/resources/img/kant.jpg") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/kant.jpg") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ li {
 }
 
 #mill {
-    background: url("/resources/img/mill.webp") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/mill.webp") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +109,7 @@ li {
 }
 
 #mill:hover {
-    background: url("/resources/img/mill.webp") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/mill.webp") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +118,7 @@ li {
 }
 
 #hegel {
-    background: url("/resources/img/hegel.webp") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/hegel.webp") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@ li {
 }
 
 #hegel:hover {
-    background: url("/resources/img/hegel.webp") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/hegel.webp") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +135,7 @@ li {
 }
 
 #nietzsche {
-    background: url("/resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,7 +143,7 @@ li {
 }
 
 #nietzsche:hover {
-    background: url("/resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +152,7 @@ li {
 }
 
 #kierkegaard {
-    background: url("/resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +160,7 @@ li {
 }
 
 #kierkegaard:hover {
-    background: url("/resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +169,7 @@ li {
 }
 
 #freud {
-    background: url("/resources/img/freud.jpg") rgba(0, 0, 0, 0.75);
+    background: url("resources/img/freud.jpg") rgba(0, 0, 0, 0.75);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ li {
 }
 
 #freud:hover {
-    background: url("/resources/img/freud.jpg") rgba(0, 0, 0, 0.5);
+    background: url("resources/img/freud.jpg") rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
