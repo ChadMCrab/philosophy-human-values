@@ -1,0 +1,246 @@
+body {
+    font-family: "Trebuchet MS";
+    margin: 0;
+	padding: 25px;
+	border: 0;
+	font-size: 100%;
+    background: lightgray;
+}
+
+a {
+    color: #049477;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3eb554;
+    text-decoration: none;
+}
+
+li {
+    line-height: 2;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.lecture-button {
+    height: 250px;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.lecture-button-title {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 1.15em;
+}
+
+.course-container a {
+    text-decoration: none;
+}
+
+#socrates {
+    background: url("/resources/img/socrates.jpg") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#socrates:hover {
+    background: url("/resources/img/socrates.jpg") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#epi-stoi-skep {
+    background: url("/resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#epi-stoi-skep:hover {
+    background: url("/resources/img/marcus-aurelius.jpg") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#kant {
+    background: url("/resources/img/kant.jpg") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#kant:hover {
+    background: url("/resources/img/kant.jpg") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#mill {
+    background: url("/resources/img/mill.webp") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#mill:hover {
+    background: url("/resources/img/mill.webp") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#hegel {
+    background: url("/resources/img/hegel.webp") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#hegel:hover {
+    background: url("/resources/img/hegel.webp") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#nietzsche {
+    background: url("/resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#nietzsche:hover {
+    background: url("/resources/img/nietzsche.jpg") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#kierkegaard {
+    background: url("/resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#kierkegaard:hover {
+    background: url("/resources/img/kierkegaard.webp") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+#freud {
+    background: url("/resources/img/freud.jpg") rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#freud:hover {
+    background: url("/resources/img/freud.jpg") rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+}
+
+.work-title {
+    font-style: italic;
+}
+
+.lecture-header {
+    background-color: #441151;
+    padding: 20px;
+    color: white;
+}
+
+#read-section {
+    border: 3px solid #05668D;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+#read-section h2 {
+    border-bottom: dotted 3.5px #05668D;
+    color: #05668D;
+    padding-bottom: 5px;
+}
+
+#read-section .last-item {
+    border-bottom: 3.5px dotted #05668D;
+    padding-bottom: 15px;
+}
+
+#watch-section {
+    border: 3px solid #BB4430;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#watch-section h2 {
+    border-bottom: dotted 3.5px #BB4430;
+    color: #BB4430;
+    padding-bottom: 5px;
+}
+
+#further-section {
+    border: 3px solid #3716F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#further-section h2 {
+    border-bottom: dotted 3.5px #3716F2;
+    color: #3716F2;
+    padding-bottom: 5px;
+}
+
