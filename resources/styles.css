@@ -6,8 +6,8 @@ body {
     background: lightgray;
 }
 
-body,
-html {
+html,
+body {
     height: 100%;
 }
 
@@ -17,7 +17,7 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url("img/hero.jpg");
   
     /* Set a specific height */
-    height: 50%;
+    height: 40%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -35,7 +35,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
   }
   
 a {
@@ -289,7 +289,7 @@ li {
 .step-section {
     border: 3px solid #441151;
     padding: 20px;
-    width: 75%;
+    width: 50%;
     margin: 20px auto;
 
 }
@@ -305,3 +305,18 @@ li {
     padding-bottom: 15px;
 }
 
+.spacer {
+    height: 50px;
+}
+
+.line-divider {
+    width: 50%;
+}
+
+.quotation {
+    font-size: 1.25rem;
+    font-style: italic;
+    width: 75%;
+    margin: auto;
+    line-height: 1.5;
+}
